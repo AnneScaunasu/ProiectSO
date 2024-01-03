@@ -1,0 +1,8 @@
+Pacientul 1 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 0 secunde in consultatie.
+Pacientul 2 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 1 secunde in consultatie.
+Pacientul 3 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 1 secunde in consultatie.
+Pacientul 5 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 0 secunde in consultatie.
+Pacientul 5 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 0 secunde in consultatie.
+Pacientul 6 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 0 secunde in consultatie.
+Pacientul 7 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 5 secunde in consultatie.
+Pacientul 8 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 2 secunde in consultatie.
