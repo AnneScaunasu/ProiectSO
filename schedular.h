@@ -15,7 +15,7 @@ typedef struct {
 
 Scheduler* createScheduler(int numDoctors, char* file);
 void destroyScheduler(Scheduler* scheduler);
-void startSimulation(Scheduler* scheduler);
+void startSimulation(Scheduler* scheduler, unsigned int patientsSpawnTime, unsigned int patientsSpawnCoolDown);
 void* patientThreadFunction(void* arg);
 
 #endif

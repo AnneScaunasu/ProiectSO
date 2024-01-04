@@ -3,18 +3,43 @@
 #include "schedular.h"
 
 int main(int argc, char *argv[], char* envp[]) {
-    printf("In main\n");
     Scheduler* scheduler;
-    if(argv[1] != NULL){
-        scheduler = createScheduler(3, argv[1]);
-    } else {
-        scheduler = createScheduler(3, "shedulerLog.txt");
+
+    char* file;
+    unsigned int numberDoctors;
+    unsigned int patientsSpawnCoolDown, patientsSpawnTime;
+
+    switch (sscanf(argv[1], "%ms %u %u %u", &file, &numberDoctors, &patientsSpawnTime, &patientsSpawnCoolDown))
+    {
+    case 1:
+        file = "schedulerLog.txt";
+        numberDoctors = 3;
+        patientsSpawnTime = 60;
+        patientsSpawnCoolDown = 10;
+        break;
+    
+    case 2:
+        numberDoctors = 3;
+        patientsSpawnTime = 60;
+        patientsSpawnCoolDown = 10;
+        break;
+
+    case 3:
+        patientsSpawnTime = 60;
+        patientsSpawnCoolDown = 10;
+        break;
+
+    case 4:
+        patientsSpawnCoolDown = 10;
+        break;
+
+    default:
+        break;
     }
-    printf("After create scheduler\n");
-    startSimulation(scheduler);
-    printf("After simulation\n");
+
+    scheduler = createScheduler(numberDoctors, file);
+    startSimulation(scheduler, patientsSpawnTime, patientsSpawnCoolDown);
     destroyScheduler(scheduler);
-    printf("After deletion\n");
     
     return 0;
 }
