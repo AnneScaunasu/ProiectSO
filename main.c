@@ -6,35 +6,31 @@ int main(int argc, char *argv[], char* envp[]) {
     Scheduler* scheduler;
 
     char* file;
-    unsigned int numberDoctors;
-    unsigned int patientsSpawnCoolDown, patientsSpawnTime;
+    int numberDoctors;
+    int patientsSpawnCoolDown, patientsSpawnTime;
 
-    switch (sscanf(argv[1], "%ms %u %u %u", &file, &numberDoctors, &patientsSpawnTime, &patientsSpawnCoolDown))
-    {
-    case 1:
+    if(argv[1] != NULL){
+        file = argv[1];
+    } else {
         file = "schedulerLog.txt";
+    }
+
+    if(argv[2] != NULL) {
+        sscanf(argv[2], "%u", &numberDoctors);
+    } else {
         numberDoctors = 3;
-        patientsSpawnTime = 60;
-        patientsSpawnCoolDown = 10;
-        break;
-    
-    case 2:
-        numberDoctors = 3;
-        patientsSpawnTime = 60;
-        patientsSpawnCoolDown = 10;
-        break;
+    }
 
-    case 3:
+    if(argv[3] != NULL) {
+        sscanf(argv[3], "%u", &patientsSpawnTime);
+    } else {
         patientsSpawnTime = 60;
-        patientsSpawnCoolDown = 10;
-        break;
+    }
 
-    case 4:
+    if(argv[4] != NULL) {
+        sscanf(argv[4], "%u", &patientsSpawnCoolDown);
+    } else {
         patientsSpawnCoolDown = 10;
-        break;
-
-    default:
-        break;
     }
 
     scheduler = createScheduler(numberDoctors, file);

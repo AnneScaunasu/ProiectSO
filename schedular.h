@@ -10,7 +10,9 @@
 typedef struct {
     Doctor* doctors;
     FILE* logFile;
+    pthread_mutex_t mutexFile;
     int numberDoctors;
+    unsigned int nextDoctor;
 } Scheduler;
 
 Scheduler* createScheduler(int numDoctors, char* file);
