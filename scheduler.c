@@ -1,4 +1,4 @@
-#include "schedular.h"
+#include "scheduler.h"
 #include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>

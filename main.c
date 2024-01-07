@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "doctor.h"
-#include "schedular.h"
+#include "scheduler.h"
 
 int main(int argc, char *argv[], char* envp[]) {
     Scheduler* scheduler;
