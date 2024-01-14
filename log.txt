@@ -2,146 +2,93 @@ Doctorul 1 este in consultatie
 Doctorul 2 este in consultatie
 Doctorul 3 este in consultatie
 Doctorul 4 este in consultatie
-Doctor 1 is done with the consultation.
-Pacientul 140284149102144 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 0 secunde in consultatie.
 Doctorul 1 este in consultatie
-Doctor 2 is done with the consultation.
-Pacientul 140284140709440 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 0 secunde in consultatie.
+Pacientul 140560719394368 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 6 secunde in consultatie.
 Doctorul 2 este in consultatie
-Doctor 3 is done with the consultation.
-Pacientul 140284132316736 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 2 secunde in consultatie.
-Doctor 4 is done with the consultation.
-Pacientul 140284123924032 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 2 secunde in consultatie.
-Doctorul 4 este in consultatie
+Pacientul 140560711001664 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 5 secunde in consultatie.
 Doctorul 3 este in consultatie
-Doctor 1 is done with the consultation.
-Pacientul 140283975009856 a asteptat 15 secunde dupa ce a ajuns ca sa intre la un medic si a stat 4 secunde in consultatie.
-Doctorul 1 este in consultatie
-Doctor 2 is done with the consultation.
-Pacientul 140283916260928 a asteptat 3 secunde dupa ce a ajuns ca sa intre la un medic si a stat 4 secunde in consultatie.
-Doctorul 2 este in consultatie
-Doctor 4 is done with the consultation.
-Pacientul 140283933046336 a asteptat 5 secunde dupa ce a ajuns ca sa intre la un medic si a stat 2 secunde in consultatie.
-Doctor 3 is done with the consultation.
-Pacientul 140283958224448 a asteptat 12 secunde dupa ce a ajuns ca sa intre la un medic si a stat 2 secunde in consultatie.
-Doctorul 3 este in consultatie
+Pacientul 140560702608960 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 6 secunde in consultatie.
 Doctorul 4 este in consultatie
-Doctor 1 is done with the consultation.
-Pacientul 140283849119296 a asteptat 16 secunde dupa ce a ajuns ca sa intre la un medic si a stat 2 secunde in consultatie.
+Pacientul 140560694216256 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 7 secunde in consultatie.
 Doctorul 1 este in consultatie
-Doctor 2 is done with the consultation.
-Pacientul 140284008580672 a asteptat 63 secunde dupa ce a ajuns ca sa intre la un medic si a stat 0 secunde in consultatie.
+Pacientul 140560685823552 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 9 secunde in consultatie.
 Doctorul 2 este in consultatie
-Doctor 3 is done with the consultation.
-Pacientul 140283907868224 a asteptat 35 secunde dupa ce a ajuns ca sa intre la un medic si a stat 5 secunde in consultatie.
-Doctor 4 is done with the consultation.
-Pacientul 140283941439040 a asteptat 40 secunde dupa ce a ajuns ca sa intre la un medic si a stat 3 secunde in consultatie.
+Pacientul 140560677430848 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 10 secunde in consultatie.
 Doctorul 3 este in consultatie
+Pacientul 140560669038144 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 7 secunde in consultatie.
 Doctorul 4 este in consultatie
-Doctor 1 is done with the consultation.
-Pacientul 140283723228736 a asteptat 29 secunde dupa ce a ajuns ca sa intre la un medic si a stat 1 secunde in consultatie.
+Pacientul 140560589387328 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 4 secunde in consultatie.
 Doctorul 1 este in consultatie
-Doctor 2 is done with the consultation.
-Pacientul 140284025366080 a asteptat 101 secunde dupa ce a ajuns ca sa intre la un medic si a stat 2 secunde in consultatie.
+Pacientul 140560580994624 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 5 secunde in consultatie.
 Doctorul 2 este in consultatie
-Doctor 3 is done with the consultation.
-Pacientul 140283891082816 a asteptat 64 secunde dupa ce a ajuns ca sa intre la un medic si a stat 2 secunde in consultatie.
-Doctor 4 is done with the consultation.
-Pacientul 140284000187968 a asteptat 97 secunde dupa ce a ajuns ca sa intre la un medic si a stat 2 secunde in consultatie.
+Pacientul 140560572601920 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 4 secunde in consultatie.
+Doctorul 3 este in consultatie
+Pacientul 140560555816512 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 6 secunde in consultatie.
+Doctorul 4 este in consultatie
+Pacientul 140560564209216 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 8 secunde in consultatie.
+Doctorul 1 este in consultatie
+Pacientul 140560547423808 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 4 secunde in consultatie.
+Doctorul 2 este in consultatie
+Pacientul 140560539031104 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 7 secunde in consultatie.
+Pacientul 140560513852992 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 6 secunde in consultatie.
+Doctorul 3 este in consultatie
+Pacientul 140560530638400 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 8 secunde in consultatie.
+Pacientul 140560505460288 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 4 secunde in consultatie.
+Pacientul 140560497067584 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 3 secunde in consultatie.
+Doctorul 4 este in consultatie
+Pacientul 140560522245696 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 10 secunde in consultatie.
+Pacientul 140560488674880 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 1 secunde in consultatie.
+Doctorul 1 este in consultatie
+Doctorul 2 este in consultatie
 Doctorul 3 este in consultatie
 Doctorul 4 este in consultatie
-Doctor 1 is done with the consultation.
-Pacientul 140283807155776 a asteptat 79 secunde dupa ce a ajuns ca sa intre la un medic si a stat 4 secunde in consultatie.
 Doctorul 1 este in consultatie
-Doctor 2 is done with the consultation.
-Pacientul 140283991795264 a asteptat 127 secunde dupa ce a ajuns ca sa intre la un medic si a stat 4 secunde in consultatie.
+Pacientul 140560480282176 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 12 secunde in consultatie.
 Doctorul 2 este in consultatie
-Doctor 3 is done with the consultation.
-Pacientul 140283874297408 a asteptat 95 secunde dupa ce a ajuns ca sa intre la un medic si a stat 2 secunde in consultatie.
-Doctor 4 is done with the consultation.
-Pacientul 140283773584960 a asteptat 73 secunde dupa ce a ajuns ca sa intre la un medic si a stat 4 secunde in consultatie.
+Pacientul 140560471889472 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 9 secunde in consultatie.
+Doctorul 3 este in consultatie
+Pacientul 140560463496768 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 11 secunde in consultatie.
+Doctorul 4 este in consultatie
+Pacientul 140560455104064 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 11 secunde in consultatie.
+Doctorul 1 este in consultatie
+Pacientul 140560446711360 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 10 secunde in consultatie.
+Doctorul 2 este in consultatie
+Pacientul 140560438318656 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 10 secunde in consultatie.
+Doctorul 3 este in consultatie
+Pacientul 140560429925952 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 7 secunde in consultatie.
+Doctorul 4 este in consultatie
+Pacientul 140560421533248 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 4 secunde in consultatie.
+Doctorul 1 este in consultatie
+Pacientul 140560413140544 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 6 secunde in consultatie.
+Doctorul 2 este in consultatie
+Pacientul 140560404747840 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 6 secunde in consultatie.
+Pacientul 140560379569728 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 2 secunde in consultatie.
+Doctorul 3 este in consultatie
+Pacientul 140560396355136 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 7 secunde in consultatie.
+Doctorul 4 este in consultatie
+Pacientul 140560387962432 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 8 secunde in consultatie.
+Pacientul 140560371177024 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 5 secunde in consultatie.
+Doctorul 1 este in consultatie
+Doctorul 2 este in consultatie
+Pacientul 140560362784320 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 5 secunde in consultatie.
 Doctorul 3 este in consultatie
 Doctorul 4 este in consultatie
-Doctor 1 is done with the consultation.
-Pacientul 140283815548480 a asteptat 114 secunde dupa ce a ajuns ca sa intre la un medic si a stat 0 secunde in consultatie.
+Pacientul 140560354391616 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 4 secunde in consultatie.
 Doctorul 1 este in consultatie
-Doctor 2 is done with the consultation.
-Pacientul 140284033758784 a asteptat 172 secunde dupa ce a ajuns ca sa intre la un medic si a stat 3 secunde in consultatie.
+Pacientul 140560345998912 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 3 secunde in consultatie.
 Doctorul 2 este in consultatie
-Doctor 3 is done with the consultation.
-Pacientul 140283765192256 a asteptat 107 secunde dupa ce a ajuns ca sa intre la un medic si a stat 2 secunde in consultatie.
-Doctor 4 is done with the consultation.
-Pacientul 140283832333888 a asteptat 118 secunde dupa ce a ajuns ca sa intre la un medic si a stat 0 secunde in consultatie.
+Pacientul 140560337606208 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 3 secunde in consultatie.
 Doctorul 3 este in consultatie
+Pacientul 140560329213504 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 3 secunde in consultatie.
+Pacientul 140560320820800 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 3 secunde in consultatie.
 Doctorul 4 este in consultatie
-Doctor 1 is done with the consultation.
-Pacientul 140283740014144 a asteptat 134 secunde dupa ce a ajuns ca sa intre la un medic si a stat 2 secunde in consultatie.
 Doctorul 1 este in consultatie
-Doctor 2 is done with the consultation.
-Pacientul 140283798763072 a asteptat 149 secunde dupa ce a ajuns ca sa intre la un medic si a stat 2 secunde in consultatie.
+Pacientul 140560304035392 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 6 secunde in consultatie.
 Doctorul 2 este in consultatie
-Doctor 3 is done with the consultation.
-Pacientul 140283899475520 a asteptat 172 secunde dupa ce a ajuns ca sa intre la un medic si a stat 0 secunde in consultatie.
-Doctor 4 is done with the consultation.
-Pacientul 140283983402560 a asteptat 195 secunde dupa ce a ajuns ca sa intre la un medic si a stat 5 secunde in consultatie.
+Pacientul 140560312428096 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 10 secunde in consultatie.
 Doctorul 3 este in consultatie
-Doctorul 4 este in consultatie
-Doctor 1 is done with the consultation.
-Pacientul 140283672872512 a asteptat 153 secunde dupa ce a ajuns ca sa intre la un medic si a stat 3 secunde in consultatie.
-Doctorul 1 este in consultatie
-Doctor 2 is done with the consultation.
-Pacientul 140283865904704 a asteptat 197 secunde dupa ce a ajuns ca sa intre la un medic si a stat 3 secunde in consultatie.
-Doctorul 2 este in consultatie
-Doctor 3 is done with the consultation.
-Pacientul 140283748406848 a asteptat 173 secunde dupa ce a ajuns ca sa intre la un medic si a stat 0 secunde in consultatie.
-Doctor 4 is done with the consultation.
-Pacientul 140283756799552 a asteptat 173 secunde dupa ce a ajuns ca sa intre la un medic si a stat 4 secunde in consultatie.
-Doctorul 3 este in consultatie
-Doctorul 4 este in consultatie
-Doctor 1 is done with the consultation.
-Pacientul 140283840726592 a asteptat 222 secunde dupa ce a ajuns ca sa intre la un medic si a stat 5 secunde in consultatie.
-Doctorul 1 este in consultatie
-Doctor 2 is done with the consultation.
-Pacientul 140283882690112 a asteptat 235 secunde dupa ce a ajuns ca sa intre la un medic si a stat 2 secunde in consultatie.
-Doctorul 2 este in consultatie
-Doctor 3 is done with the consultation.
-Pacientul 140283681265216 a asteptat 194 secunde dupa ce a ajuns ca sa intre la un medic si a stat 5 secunde in consultatie.
-Doctor 4 is done with the consultation.
-Pacientul 140283790370368 a asteptat 220 secunde dupa ce a ajuns ca sa intre la un medic si a stat 0 secunde in consultatie.
-Doctorul 4 este in consultatie
-Doctorul 3 este in consultatie
-Doctor 1 is done with the consultation.
-Pacientul 140283706443328 a asteptat 235 secunde dupa ce a ajuns ca sa intre la un medic si a stat 1 secunde in consultatie.
-Doctorul 1 este in consultatie
-Doctor 2 is done with the consultation.
-Pacientul 140283823941184 a asteptat 255 secunde dupa ce a ajuns ca sa intre la un medic si a stat 3 secunde in consultatie.
-Doctorul 2 este in consultatie
-Doctor 4 is done with the consultation.
-Pacientul 140284115531328 a asteptat 314 secunde dupa ce a ajuns ca sa intre la un medic si a stat 1 secunde in consultatie.
-Doctor 3 is done with the consultation.
-Pacientul 140283698050624 a asteptat 235 secunde dupa ce a ajuns ca sa intre la un medic si a stat 1 secunde in consultatie.
-Doctorul 3 este in consultatie
-Doctorul 4 este in consultatie
-Doctor 1 is done with the consultation.
-Pacientul 140283857512000 a asteptat 300 secunde dupa ce a ajuns ca sa intre la un medic si a stat 2 secunde in consultatie.
-Doctorul 1 este in consultatie
-Doctor 2 is done with the consultation.
-Pacientul 140283924653632 a asteptat 319 secunde dupa ce a ajuns ca sa intre la un medic si a stat 1 secunde in consultatie.
-Doctorul 2 este in consultatie
-Doctor 3 is done with the consultation.
-Pacientul 140283966617152 a asteptat 331 secunde dupa ce a ajuns ca sa intre la un medic si a stat 5 secunde in consultatie.
-Doctor 4 is done with the consultation.
-Pacientul 140283949831744 a asteptat 324 secunde dupa ce a ajuns ca sa intre la un medic si a stat 3 secunde in consultatie.
-Doctorul 3 este in consultatie
-Doctorul 4 este in consultatie
-Doctor 1 is done with the consultation.
-Pacientul 140283781977664 a asteptat 319 secunde dupa ce a ajuns ca sa intre la un medic si a stat 1 secunde in consultatie.
-Doctorul 1 este in consultatie
-Doctor 2 is done with the consultation.
-Pacientul 140283714836032 a asteptat 308 secunde dupa ce a ajuns ca sa intre la un medic si a stat 1 secunde in consultatie.
-Doctor 3 is done with the consultation.
-Pacientul 140283689657920 a asteptat 301 secunde dupa ce a ajuns ca sa intre la un medic si a stat 5 secunde in consultatie.
-Doctor 4 is done with the consultation.
-Pacientul 140283731621440 a asteptat 311 secunde dupa ce a ajuns ca sa intre la un medic si a stat 0 secunde in consultatie.
-Doctor 1 is done with the consultation.
-Pacientul 140284016973376 a asteptat 412 secunde dupa ce a ajuns ca sa intre la un medic si a stat 3 secunde in consultatie.
+Pacientul 140560295642688 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 12 secunde in consultatie.
+Pacientul 140560278857280 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 21 secunde in consultatie.
+Pacientul 140560270464576 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 17 secunde in consultatie.
+Pacientul 140560262071872 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 15 secunde in consultatie.
+Pacientul 140560287249984 a asteptat 0 secunde dupa ce a ajuns ca sa intre la un medic si a stat 30 secunde in consultatie.

@@ -1,4 +1,5 @@
 #include "scheduler.h"
+#include "doctor.h"
 #include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -9,8 +10,8 @@
 Scheduler* createScheduler(int numDoctors, char* file){
     Scheduler* scheduler = (Scheduler*)malloc(sizeof(Scheduler));
     scheduler->numberDoctors = numDoctors;
-    scheduler->doctors = initializeDoctors(numDoctors);
     scheduler->logFile = fopen(file,"w");
+    scheduler->doctors = initializeDoctors(numDoctors);
     pthread_mutex_init(&scheduler->mutexFile, NULL);
     scheduler->nextDoctor = 0;
     return scheduler;
@@ -22,23 +23,29 @@ void destroyScheduler(Scheduler* scheduler){
     free(scheduler);
 }
 
-Doctor* findAvailableDoctor(Doctor* doctors, int numDoctors, int nextDoctor, FILE* file){
-
-    for (int i = nextDoctor; i < numDoctors; i++){
+Doctor* findAvailableDoctor(Doctor* doctors, int numDoctors, int *nextDoctor, FILE* file){
+    printf("In findAvailableDoctor\n");
+    printf("Number of doctors %i\n",numDoctors);
+    for (int i = *nextDoctor; i < numDoctors; i++){
+        printf("In findAvailableDoctor for with i=%i\n", i);
         if(pthread_mutex_trylock(&doctors[i].mutex) == 0){
             fprintf(file, "Doctorul %i este in consultatie\n", i + 1);
             if(i == numDoctors - 1)
-                nextDoctor = 0;
+                *nextDoctor = 0;
             else
-                nextDoctor = i + 1;
+                *nextDoctor = i + 1;
+            printf("The next doctor is %i\n", *nextDoctor);
             return &doctors[i];
         }
     }
     nextDoctor = 0;
+    printf("Out of findAvailableDoctor\n");
+
     return NULL;
 }
 
 void writeLog(Scheduler* scheduler, pthread_t patient_id, time_t waitTime, time_t consultationTime){
+    printf("In writeLog\n");
     bool doneWriting = false;
     while(!doneWriting)
         if(pthread_mutex_trylock(&scheduler->mutexFile)){
@@ -46,34 +53,41 @@ void writeLog(Scheduler* scheduler, pthread_t patient_id, time_t waitTime, time_
             doneWriting = true;
             pthread_mutex_unlock(&scheduler->mutexFile);
         }
+    printf("Out of writeLog\n");
 }
 
 void* patientThreadFunction(void* arg){
+    printf("In patientTHreadFunction\n");
     Scheduler* params = (Scheduler*)arg;
 
     srand((unsigned int)time(NULL));
 
     time_t startTime = time(NULL);
-    time_t waitTime, consultationTime;
+    time_t waitTime;
     
     bool finishedConsultation = false;
     while(!finishedConsultation){
-        Doctor* doctor = findAvailableDoctor(params->doctors, (params->numberDoctors), params->nextDoctor, params->logFile);
+        Doctor* doctor = findAvailableDoctor(params->doctors, (params->numberDoctors), &params->nextDoctor, params->logFile);
         if(doctor != NULL){
             waitTime = time(NULL) - startTime;  
-            consultationTime = rand() % 6;
-            sleep(35); // Each patient can stay a maximum of 5 seconds in the doctors office
-            fprintf(params->logFile, "Doctor %i is done with the consultation.\n", doctor->id_doctor);
+            printf("1 Next doctor in patientThreadFunction is %i\n", params->nextDoctor);
+            pthread_cond_signal(&doctor->consultation);
+            time_t consultationTime = time(NULL);
+            pthread_cond_wait(&doctor->consultation, &doctor->mutex);
+            printf("2 Next doctor in patientThreadFunction is %i\n", params->nextDoctor);
             pthread_mutex_unlock(&doctor->mutex);
             finishedConsultation = true;
-            writeLog(params, pthread_self(), waitTime, consultationTime);
+            writeLog(params, pthread_self(), waitTime, time(NULL) - consultationTime);
+            printf("3 Next doctor in patientThreadFunction is %i\n", params->nextDoctor);
         }
     }
+    printf("Out of the patientThreadFunction\n");
 
     return NULL;
 }
 
 void startSimulation(Scheduler* scheduler, unsigned int patientsSpawnTime, unsigned int patientsSpawnCoolDown){
+    printf("In startSsimulation\n");
     srand((unsigned int)time(NULL)); // Seed for random number generation
     time_t startTime = time(NULL);
     time_t currentTime;
@@ -98,4 +112,8 @@ void startSimulation(Scheduler* scheduler, unsigned int patientsSpawnTime, unsig
     for(int i = 0; i < counterThreads; i++){
         pthread_join(threadsHandles[i],NULL);
     }
+
+    terminateDoctorThreads(scheduler->doctors, scheduler->numberDoctors);
+
+    printf("Out of the startSimulation\n");
 }
