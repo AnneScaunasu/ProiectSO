@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <time.h>
 #include "doctor.h"
 #include "scheduler.h"
 
@@ -8,6 +9,7 @@ int main(int argc, char *argv[], char* envp[]) {
     char* file;
     int numberDoctors;
     int patientsSpawnCoolDown, patientsSpawnTime;
+    time_t startTime = time(NULL);
 
     if(argv[1] != NULL){
         file = argv[1];
@@ -36,6 +38,8 @@ int main(int argc, char *argv[], char* envp[]) {
     scheduler = createScheduler(numberDoctors, file);
     startSimulation(scheduler, patientsSpawnTime, patientsSpawnCoolDown);
     destroyScheduler(scheduler);
+    
+    // printf("The proram run for %li\n",time(NULL) - startTime);
     
     return 0;
 }

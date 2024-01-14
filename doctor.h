@@ -16,5 +16,6 @@ typedef struct {
 Doctor* initializeDoctors(int numDoctors);
 void destroyDoctor(Doctor* doctor, int numDoctors);
 void terminateDoctorThreads(Doctor* doctors, int numDoctors);
+void programFinished(pthread_cond_t* signalHandel);
 
 #endif

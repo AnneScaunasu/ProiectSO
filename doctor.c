@@ -1,4 +1,5 @@
 #include "doctor.h"
+#include "scheduler.h"
 #include <pthread.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -6,9 +7,10 @@
 #include <stdbool.h>
 
 bool StillPatients = true; 
+bool AllDoctorsDismised = false;
 
 void* doctorThreadFunction(void* arg) {
-    printf("In doctorThreadFunction\n");
+    // printf("In doctorThreadFunction\n");
     Doctor* doctor = (Doctor*)arg;
 
     while(StillPatients){
@@ -21,7 +23,8 @@ void* doctorThreadFunction(void* arg) {
 
         pthread_cond_signal(&doctor->consultation);
     }
-    printf("Out of doctorThreadFunction\n");
+
+    // printf("Out of doctorThreadFunction\n");
 }
 
 Doctor* initializeDoctors(int numDoctors){
@@ -39,7 +42,7 @@ Doctor* initializeDoctors(int numDoctors){
             exit(EXIT_FAILURE);
         }
     }
-
+    AllDoctorsDismised = true;
     return doctors;
 }
 
@@ -61,4 +64,13 @@ void terminateDoctorThreads(Doctor* doctors, int numDoctors){
     for(int i = 0; i < numDoctors; i++)
         pthread_cond_signal(&doctors[i].consultation);
 
+}
+
+void programFinished(pthread_cond_t* signalHandel){
+    while(1){
+        if(AllDoctorsDismised){
+            pthread_cond_signal(signalHandel);
+            break;
+        }
+    }
 }

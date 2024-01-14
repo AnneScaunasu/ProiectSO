@@ -13,6 +13,7 @@ typedef struct {
     pthread_mutex_t mutexFile;
     int numberDoctors;
     unsigned int nextDoctor;
+    pthread_cond_t finishedWorkDay;
 } Scheduler;
 
 Scheduler* createScheduler(int numDoctors, char* file);
